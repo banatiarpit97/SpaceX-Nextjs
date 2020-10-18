@@ -1,0 +1,37 @@
+.container {
+    background-color: white;
+    width: 230px;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 10px 15px 0 0;
+}
+
+.image {
+    width: 100%;
+    min-height: 190px;
+}
+
+.name {
+    color: #4c5087;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.id_list {
+    margin: 5px 0 0;
+}
+
+.type {
+    font-size: 14px;
+    margin: 0;
+}
+
+.detail {
+    margin: 0 0 0 5px;
+    color: #8e94c5;
+    font-size: 14px;
+}
