@@ -83,6 +83,10 @@ const Filter = ({
             </section>
         </aside>
     )
+};
+
+Filter.defaultProps = {
+    initialFilter: {}
 }
 
 export default Filter;

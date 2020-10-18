@@ -6,7 +6,7 @@ const MissionCard = ({
 }) => (
     <section className={styles.container}>
         <img
-            src={links.mission_patch_small}
+            src={links?.mission_patch_small}
             alt={mission_name}
             className={styles.image}
         />
@@ -37,5 +37,9 @@ const MissionCard = ({
         </div>
     </section>
 );
+
+MissionCard.defaultProps = {
+    mission: {}
+}
 
 export default MissionCard;

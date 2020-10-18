@@ -3,9 +3,7 @@ import styles from './../styles/filter.module.css';
 
 const FilterItem = ({
     type, value, selectedFilters, onFilterSelect
-}) => {
-
-    return (
+}) => (
 
         <span
             onClick={() => onFilterSelect(type, value)}
@@ -15,7 +13,13 @@ const FilterItem = ({
             {value}
         </span>
 
-    )
+    );
+
+FilterItem.defaultProps = {
+    type: '',
+    value: '',
+    selectedFilters: {},
+    onFilterSelect: () => {}
 }
 
 export default FilterItem;

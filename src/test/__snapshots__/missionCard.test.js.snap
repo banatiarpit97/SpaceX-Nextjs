@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="container"
+>
+  <img
+    className="image"
+  />
+  <h3
+    className="name"
+  >
+     #
+  </h3>
+  <div
+    className="flex"
+  >
+    <h4
+      className="type"
+    >
+      Launch Year:
+    </h4>
+    <p
+      className="detail"
+    />
+  </div>
+  <div
+    className="flex"
+  >
+    <h4
+      className="type"
+    >
+      Successful Launch:
+    </h4>
+    <p
+      className="detail"
+    >
+      undefined
+    </p>
+  </div>
+  <div
+    className="flex"
+  >
+    <h4
+      className="type"
+    >
+      Successful Landing:
+    </h4>
+    <p
+      className="detail"
+    >
+      false
+    </p>
+  </div>
+</section>
+`;

@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<aside
+  className="filter_container"
+>
+  <h2
+    className="filter_heading"
+  >
+    Filters
+  </h2>
+  <section
+    className="section"
+  >
+    <h3
+      className="section_heading"
+    >
+      Launch Year
+    </h3>
+    <div
+      className="section_values"
+    >
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2006
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2007
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2008
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2009
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2010
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2011
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2012
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2013
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2014
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2015
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2016
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2017
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2018
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2019
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        2020
+      </span>
+    </div>
+  </section>
+  <section
+    className="section"
+  >
+    <h3
+      className="section_heading"
+    >
+      Successful Launch
+    </h3>
+    <div
+      className="section_values"
+    >
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        true
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        false
+      </span>
+    </div>
+  </section>
+  <section
+    className="section"
+  >
+    <h3
+      className="section_heading"
+    >
+      Successful Landing
+    </h3>
+    <div
+      className="section_values"
+    >
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        true
+      </span>
+      <span
+        className="filter_item"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#c3de9d",
+          }
+        }
+      >
+        false
+      </span>
+    </div>
+  </section>
+</aside>
+`;
