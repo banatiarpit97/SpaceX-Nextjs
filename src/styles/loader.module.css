@@ -1,0 +1,13 @@
+.loader {
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100%;
+    margin: 10px;
+    position: absolute;
+}
+
+.loader img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}

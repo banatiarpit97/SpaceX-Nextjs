@@ -6,7 +6,7 @@ const MissionCard = ({
 }) => (
     <section className={styles.container}>
         <img
-            src={links.mission_patch}
+            src={links.mission_patch_small}
             alt={mission_name}
             className={styles.image}
         />

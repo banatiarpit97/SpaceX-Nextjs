@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router'
 import styles from './../styles/filter.module.css';
 import { START_YEAR, YEAR_FILTER_KEY, LAUNCH_FILTER_KEY, LAND_FILTER_KEY } from './../constants/filter';
 import FilterItem from './FilterItem';
+import { getQueryString } from '../utils/common';
 
 const years = [];
 const currentDate = new Date();
@@ -9,25 +11,21 @@ for (let i = START_YEAR; i <= currentDate.getFullYear(); i++) {
     years.push(i);
 }
 const Filter = ({
-    onFilterChange
+    initialFilter
 }) => {
-    const [selectedFilters, setSelectedFilters] = useState({});
-
-    useEffect(() => {
-        onFilterChange(selectedFilters)
-    }, [selectedFilters]);
+    const router = useRouter()
+    const [selectedFilters, setSelectedFilters] = useState(initialFilter || {});
 
     const onFilterSelect = (key, value) => {
+        const newFilter = { ...selectedFilters };
         if (selectedFilters[key] === value) {
-            const newFilter = { ...selectedFilters };
             delete newFilter[key];
             setSelectedFilters(newFilter);
         } else {
-            setSelectedFilters({
-                ...selectedFilters,
-                [key]: value
-            });
+            newFilter[key] = value;
+            setSelectedFilters(newFilter);
         }
+        router.push(`/${getQueryString(newFilter)}`, undefined, { shallow: true })
     }
 
     return (

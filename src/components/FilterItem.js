@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styles from './../styles/filter.module.css';
 
 const FilterItem = ({
@@ -10,7 +10,7 @@ const FilterItem = ({
         <span
             onClick={() => onFilterSelect(type, value)}
             className={styles.filter_item}
-            style={{ backgroundColor: (selectedFilters[type] === value) ? '#7ab80e' : '#c3de9d' }}
+            style={{ backgroundColor: (selectedFilters[type] == value) ? '#7ab80e' : '#c3de9d' }}
         >
             {value}
         </span>
